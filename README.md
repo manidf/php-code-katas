@@ -1,3 +1,3 @@
 # PHP code katas
 
-code katas [",][".] thank laracasts :-)
+code katas [",][".] thanks laracasts :-)
