@@ -10,7 +10,7 @@ gulp.task('test', function() {
         .pipe(phpspec('', { 'verbose': 'v', notify: true }))
         .on('error', notify.onError({
             title: "Crap",
-            message: "OOPS Your tests failed!",
+            message: "Your tests failed!",
             icon: __dirname + '/fail.png'
         }))
         .pipe(notify({
