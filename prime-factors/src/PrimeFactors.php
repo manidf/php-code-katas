@@ -2,18 +2,38 @@
 
 class PrimeFactors {
 
+	/**
+	 * @param $number
+	 * @return array
+	 */
     public function generate($number) 
     {
-
         $primes = [];
+        $candidate = 2;
 
-        if ($number > 1)
+        for (; $number > 1; $candidate++) 
         {
-            $primes[] = $number; // append to the primes array the number.
-         }
-        
+            while ($number % $candidate == 0)
+            {
+                $primes[] = $candidate;
+                $number /= $candidate;
+            }
+        }
 
-        $primes = [];
+        // while ($number > 1) 
+        // {
+        //     while ($number % $candidate == 0)
+        //     {
+        //         $primes[] = $candidate;
+        //         $number /= $candidate;
+        //         // append to the primes array the number.
+        //         // $primes[] = $number;
+        //     }
+
+        //     $candidate++;
+        // }
+
+        return $primes;
     }
 
 }
