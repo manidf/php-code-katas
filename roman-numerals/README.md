@@ -1,4 +1,6 @@
-## Roman Numerals 
+## Roman Numerals
+
+Create a CLASS to automatically convert the integer to a roman numeral.
 
 ```
 1 => I
