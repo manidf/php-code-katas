@@ -1,0 +1,33 @@
+{
+  "name": "prime-factors",
+  "version": "1.0.0",
+  "description": "code kata roman numerals",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manidf/php-code-katas.git"
+  },
+  "keywords": [
+    "php",
+    "code",
+    "kata",
+    "prime",
+    "factors"
+  ],
+  "author": "mannuel ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manidf/php-code-katas/issues"
+  },
+  "homepage": "https://github.com/manidf/php-code-katas#readme",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-notify": "^1.5.0",
+    "gulp-phpspec": "^0.2.5",
+    "gulp-plumber": "^1.1.0",
+    "gulp-run": "^1.6.4"
+  }
+}
