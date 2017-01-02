@@ -1,0 +1,4 @@
+vendor/
+spec/
+bin/
+node_modules/
