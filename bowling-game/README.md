@@ -12,5 +12,5 @@ We need to reproduce the scoring system for a game of Bowling
 - Strike
     - 10
     - 2
-    - 4
+    - 4 -> 22
 ```
